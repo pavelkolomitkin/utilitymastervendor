@@ -1,0 +1,24 @@
+{
+  "name" : "utility/matervendor",
+  "description" : "A simple vendor bundle as example",
+  "version" : "1.0.0",
+  "type" : "symfony-bundle",
+  "license" : "MIT",
+  "keywords" : ["example", "example vendor bundle"],
+  "authors" : [{
+    "name" : "Pavel Kolomytkin",
+    "email" : "pavelkolomitkin@gmail.com"
+  }],
+  "require" : {
+    "php": ">=5.3.2",
+    "symfony/symfony": ">=2.1"
+  },
+  "autoload" : {
+    "psr-4" : { "Utility\\MasterVendorBundle\\" : "" }
+  },
+  "extra" : {
+    "branch-alias" : {
+      "dev-master" : "1.0.x-dev"
+    }
+  }
+}
